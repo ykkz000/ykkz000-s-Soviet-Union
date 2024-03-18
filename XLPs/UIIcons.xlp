@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_128"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_200"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_22"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_256"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_30"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_32"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_36"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_44"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_45"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_48"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_50"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_64"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_80"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_VLADIMIR_LENIN_256"/>
+			<m_ObjectName text="YKKZ000_VLADIMIR_LENIN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_VLADIMIR_LENIN_32"/>
+			<m_ObjectName text="YKKZ000_VLADIMIR_LENIN_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_VLADIMIR_LENIN_45"/>
+			<m_ObjectName text="YKKZ000_VLADIMIR_LENIN_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_VLADIMIR_LENIN_48"/>
+			<m_ObjectName text="YKKZ000_VLADIMIR_LENIN_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_VLADIMIR_LENIN_50"/>
+			<m_ObjectName text="YKKZ000_VLADIMIR_LENIN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_VLADIMIR_LENIN_55"/>
+			<m_ObjectName text="YKKZ000_VLADIMIR_LENIN_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_VLADIMIR_LENIN_64"/>
+			<m_ObjectName text="YKKZ000_VLADIMIR_LENIN_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_VLADIMIR_LENIN_80"/>
+			<m_ObjectName text="YKKZ000_VLADIMIR_LENIN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_1281"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_2001"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_221"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_2561"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_301"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_321"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_361"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_441"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_451"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_481"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_501"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_641"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_SOVIET_UNION_801"/>
+			<m_ObjectName text="YKKZ000_SOVIET_UNION_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_RED_ARMY_22"/>
+			<m_ObjectName text="YKKZ000_RED_ARMY_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_RED_ARMY_256"/>
+			<m_ObjectName text="YKKZ000_RED_ARMY_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_RED_ARMY_32"/>
+			<m_ObjectName text="YKKZ000_RED_ARMY_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_RED_ARMY_38"/>
+			<m_ObjectName text="YKKZ000_RED_ARMY_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_RED_ARMY_50"/>
+			<m_ObjectName text="YKKZ000_RED_ARMY_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="YKKZ000_RED_ARMY_80"/>
+			<m_ObjectName text="YKKZ000_RED_ARMY_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

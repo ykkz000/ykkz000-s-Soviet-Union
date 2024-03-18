@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- YKKZ000_Icon_Leaders -->
+<!-- Author: 86183 -->
+<!-- DateCreated: 2/6/2024 10:56:39 PM -->
+<GameData>
+    <IconTextureAtlases>
+        <Row Name="ICON_ATLAS_YKKZ000_VLADIMIR_LENIN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_VLADIMIR_LENIN_256" />
+        <Row Name="ICON_ATLAS_YKKZ000_VLADIMIR_LENIN" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_VLADIMIR_LENIN_80" />
+        <Row Name="ICON_ATLAS_YKKZ000_VLADIMIR_LENIN" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_VLADIMIR_LENIN_64" />
+        <Row Name="ICON_ATLAS_YKKZ000_VLADIMIR_LENIN" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_VLADIMIR_LENIN_55" />
+        <Row Name="ICON_ATLAS_YKKZ000_VLADIMIR_LENIN" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_VLADIMIR_LENIN_50" />
+        <Row Name="ICON_ATLAS_YKKZ000_VLADIMIR_LENIN" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_VLADIMIR_LENIN_48" />
+        <Row Name="ICON_ATLAS_YKKZ000_VLADIMIR_LENIN" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_VLADIMIR_LENIN_45" />
+        <Row Name="ICON_ATLAS_YKKZ000_VLADIMIR_LENIN" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_VLADIMIR_LENIN_32" />
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_LEADER_YKKZ000_VLADIMIR_LENIN" Atlas="ICON_ATLAS_YKKZ000_VLADIMIR_LENIN" Index="0" />
+    </IconDefinitions>
+</GameData>

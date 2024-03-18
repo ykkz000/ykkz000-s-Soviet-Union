@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_MOD_YKKZ000_S_SOVIET_UNION_NAME</Name>
+    <Guid>9ed0d5f8-9d0e-4768-ae28-b422ee46b5c3</Guid>
+    <ProjectGuid>2bcee6b1-5cda-4db0-b992-8987a85fdfe5</ProjectGuid>
+    <AssemblyName>ykkz000's Soviet Union</AssemblyName>
+    <RootNamespace>ykkz000's Soviet Union</RootNamespace>
+    <Authors>ykkz000</Authors>
+    <ModVersion>5</ModVersion>
+    <Teaser>LOC_MOD_YKKZ000_S_SOVIET_UNION_TEASER</Teaser>
+    <Description>LOC_MOD_YKKZ000_S_SOVIET_UNION_NAME_DESCRIPTION</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="YKKZ000_SU_DATA"><Properties><LoadOrder>80</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>Data/YKKZ000_Districts.xml</File><File>Data/YKKZ000_UnitAbilities.xml</File><File>Data/YKKZ000_Units.xml</File><File>Data/YKKZ000_Civilizations.xml</File><File>Data/YKKZ000_Civilizations.sql</File><File>Data/YKKZ000_Leaders.xml</File><File>Data/YKKZ000_Moments.xml</File></UpdateDatabase><UpdateText id="YKKZ000_SU_TEXT"><Criteria>LeaderCriteria</Criteria><File>Text/en_US/YKKZ000_ConfigText.xml</File><File>Text/en_US/YKKZ000_Text.xml</File><File>Text/zh_Hans_CN/YKKZ000_ConfigText.xml</File><File>Text/zh_Hans_CN/YKKZ000_Text.xml</File></UpdateText><UpdateIcons id="YKKZ000_SU_ICON"><Criteria>LeaderCriteria</Criteria><File>Data/YKKZ000_Icon_Civilizations.xml</File><File>Data/YKKZ000_Icon_Leaders.xml</File><File>Data/YKKZ000_Icon_Districts.xml</File><File>Data/YKKZ000_Icon_Units.xml</File></UpdateIcons><UpdateArt id="YKKZ000_SU_ART"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="YKKZ000_SU_COLOR"><File>Data/YKKZ000_PlayerColors.xml</File></UpdateColors><UpdateAudio id="YKKZ000_SU_AUDIO"><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION.bnk</File><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION.xml</File><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION.txt</File><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION.ini</File></UpdateAudio></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="YKKZ000_SU_CONFIG_DATA"><File>Data/YKKZ000_Config.sql</File></UpdateDatabase><UpdateText id="YKKZ000_SU_CONFIG_TEXT"><File>Text/en_US/YKKZ000_ConfigText.xml</File><File>Text/zh_Hans_CN/YKKZ000_ConfigText.xml</File></UpdateText><UpdateIcons id="YKKZ000_SU_CONFIG_ICON"><File>Data/YKKZ000_Icon_Civilizations.xml</File><File>Data/YKKZ000_Icon_Leaders.xml</File><File>Data/YKKZ000_Icon_Districts.xml</File><File>Data/YKKZ000_Icon_Units.xml</File></UpdateIcons><UpdateArt id="YKKZ000_SU_CONFIG_ART"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="YKKZ000_SU_CONFIG_COLOR"><File>Data/YKKZ000_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:StandardPlayers::LEADER_YKKZ000_VLADIMIR_LENIN,Players:Expansion1_Players::LEADER_YKKZ000_VLADIMIR_LENIN,Players:Expansion2_Players::LEADER_YKKZ000_VLADIMIR_LENIN</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_YKKZ000_VLADIMIR_LENIN</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_YKKZ000_VLADIMIR_LENIN</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <LocalizedTextData><![CDATA[<LocalizedText><Text id="LOC_MOD_YKKZ000_S_SOVIET_UNION_NAME"><en_US>ykkz000's [COLOR_FLOAT_GOLD]Soviet Union[ENDCOLOR]</en_US><zh_Hans_CN>ykkz000的[COLOR_FLOAT_GOLD]苏联[ENDCOLOR]</zh_Hans_CN></Text><Text id="LOC_MOD_YKKZ000_S_SOVIET_UNION_TEASER"><en_US>Add new civilization [COLOR_FLOAT_GOLD]Soviet Union[ENDCOLOR] and new leader [COLOR_RED]Vladimir Lenin[ENDCOLOR]</en_US><zh_Hans_CN>添加新文明[COLOR_FLOAT_GOLD]苏联[ENDCOLOR]和新领袖[COLOR_RED]弗拉基米尔·列宁[ENDCOLOR]</zh_Hans_CN></Text><Text id="LOC_MOD_YKKZ000_S_SOVIET_UNION_NAME_DESCRIPTION"><en_US>Add new civilization [COLOR_FLOAT_GOLD]Soviet Union[ENDCOLOR] and new leader [COLOR_RED]Vladimir Lenin[ENDCOLOR].[NEWLINE]Supported Languages: English, 简体中文</en_US><zh_Hans_CN>添加新文明[COLOR_FLOAT_GOLD]苏联[ENDCOLOR]和新领袖[COLOR_RED]弗拉基米尔·列宁[ENDCOLOR]。[NEWLINE]支持的语言：English，简体中文</zh_Hans_CN></Text></LocalizedText>]]></LocalizedTextData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_Icon_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_Icon_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_Icon_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_Moments.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_PlayerColors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\552830007.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\636965561.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\788167140.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\911864952.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\YKKZ000_SOVIET_UNION.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\YKKZ000_SOVIET_UNION.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\YKKZ000_SOVIET_UNION.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\YKKZ000_SOVIET_UNION.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_YKKZ000_VLADIMIR_LENIN.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\FALLBACK_NEUTRAL_YKKZ000_VLADIMIR_LENIN.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YKKZ000_VLADIMIR_LENIN_NEUTRAL.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\LEADER_YKKZ000_VLADIMIR_LENIN_NEUTRAL.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_UniqueDistrict_YKKZ000_NAUKOGRAD.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_UniqueDistrict_YKKZ000_NAUKOGRAD.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_UniqueUnit_YKKZ000_RED_ARMY.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Moment_UniqueUnit_YKKZ000_RED_ARMY.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_38.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_38.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_RED_ARMY_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_128.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_128.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_200.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_200.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_22.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_22.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_30.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_30.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_36.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_36.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_44.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_44.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_SOVIET_UNION_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_256.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_256.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_32.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_32.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_45.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_45.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_48.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_48.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_50.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_50.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_55.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_55.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_64.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_64.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_80.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\YKKZ000_VLADIMIR_LENIN_80.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\en_US\YKKZ000_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\en_US\YKKZ000_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hans_CN\YKKZ000_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hans_CN\YKKZ000_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Data" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\Windows" />
+    <Folder Include="Platforms\Windows\Audio\" />
+    <Folder Include="Text" />
+    <Folder Include="Textures\" />
+    <Folder Include="Text\en_US" />
+    <Folder Include="Text\zh_Hans_CN" />
+    <Folder Include="XLPs\" />
+    <Content Include="Data\YKKZ000_Civilizations.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_Config.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\YKKZ000_Icon_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="ykkz000's Soviet Union.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

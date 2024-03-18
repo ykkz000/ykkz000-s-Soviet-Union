@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- YKKZ000_Icon_Districts -->
+<!-- Author: 86183 -->
+<!-- DateCreated: 2/8/2024 8:07:36 PM -->
+<GameData>
+    <IconDefinitions>
+        <Row Name="ICON_DISTRICT_YKKZ000_NAUKOGRAD"                  Atlas="ICON_ATLAS_DISTRICTS" Index="2" />
+    </IconDefinitions>
+</GameData>

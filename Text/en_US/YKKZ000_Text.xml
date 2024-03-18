@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- YKKZ000_Text -->
+<!-- Author: 86183 -->
+<!-- DateCreated: 2/6/2024 11:10:17 PM -->
+<GameData>
+    <BaseGameText>
+        <!-- Cities -->
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_2">
+            <Text>Leningrad</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_3">
+            <Text>Kiev</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_4">
+            <Text>Minsk</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_5">
+            <Text>Kharkov</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_6">
+            <Text>USSRgrad</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_7">
+            <Text>Sverdlovsk</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_8">
+            <Text>Gorky</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_9">
+            <Text>Krasnodar</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_10">
+            <Text>Vladivostok</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_11">
+            <Text>Novosibirsk</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_12">
+            <Text>Krasnoyarsk</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_13">
+            <Text>Kuybyshev</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_14">
+            <Text>Baku</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_15">
+            <Text>Tbilisi</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_16">
+            <Text>Alma-Ata</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_17">
+            <Text>Tashkent</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_18">
+            <Text>Omsk</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_19">
+            <Text>Ufa</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_20">
+            <Text>Chelyabinsk</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_21">
+            <Text>Sevastopol</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_22">
+            <Text>Molotov</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_23">
+            <Text>Kaliningrad</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_24">
+            <Text>Riga</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_25">
+            <Text>Tallin</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_26">
+            <Text>Kazan</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_27">
+            <Text>Odessa</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_28">
+            <Text>Kirov</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_29">
+            <Text>Ulyanovsk</Text>
+        </Row>
+        <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_30">
+            <Text>Dnepropetrovsk</Text>
+        </Row>
+        <!-- Quote-->
+		<Row Tag="LEADER_YKKZ000_VLADIMIR_LENIN_QUOTE">
+            <Text>The state is an organ of class rule, an organ for the oppression of one class by another.</Text>
+        </Row>
+        <!-- Loading Info -->
+        <Row Tag="LOC_LOADING_INFO_LEADER_YKKZ000_VLADIMIR_LENIN">
+            <Text>Vladimir Lenin, the wave of revolution has arrived. Establish the Soviets, lead the proletariat to overthrow the tyrant and establish a revolutionary regime under the dictatorship of the proletariat. All workers of all countries, unite!</Text>
+        </Row>
+        <!--Diplomacy-->
+		<Row Tag="LOC_DIPLO_MODIFIER_LEADER_YKKZ000_VLADIMIR_LENIN_DECLARE_WAR">
+			<Text>Has a tyrant like you taken into account the feelings of the people?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_YKKZ000_VLADIMIR_LENIN_DECLARE_WAR">
+			<Text>(You declare wars)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_LEADER_YKKZ000_VLADIMIR_LENIN_SAME_GOVERNMENT">
+			<Text>The Soviet people consider you a comrade of the revolution.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_YKKZ000_VLADIMIR_LENIN_SAME_GOVERNMENT">
+			<Text>(You have the same government)</Text>
+		</Row>
+		<!--FIRST MEET-->
+		<!--First AI line-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Hello, I am Vladimir Lenin, Chairman of the Council of People's Commissars of the USSR. Are you a revolutionary or a tyrant who deserves to be abandoned by history?</Text>
+		</Row>
+		<!--AI invitation to visit nearby City-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Hello, would you like to visit the country of the dictatorship of the proletariat?</Text>
+		</Row>
+		<!--AI accepts Human invitation-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Great idea.</Text>
+		</Row>
+		<!--AI invitation to exchange Capital Information-->
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>We can exchange information about the capital.</Text>
+		</Row>
+		<!--GREETINGS-->
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Hello.</Text>
+		</Row>
+		<!--DELEGATION-->
+		<!--AI Accepts-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Your delegation is very welcome.</Text>
+		</Row>
+		<!--AI Rejects-->
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The Soviet people were not going to negotiate with the tyrants.</Text>
+		</Row>
+		<!--AI Requests -->
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The Soviet people sent a delegation in the hope of facilitating the exchange of our ideas.</Text>
+		</Row>
+		<!--OPEN BORDERS-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The Soviet people were glad.</Text>
+		</Row>
+		<!--AI rejects from human-->
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The Soviet people did not agree.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Can you open your country's borders?</Text>
+		</Row>
+		<!--DECLARE FRIENDSHIP-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Our friendship will advance the world revolution.</Text>
+		</Row>
+		<!--AI Rejects from human -->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The Soviet people did not consider your country to be a revolutionary state.</Text>
+		</Row>
+		<!--AI Requests friendship from human-->
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Is your country willing to declare friendship with my country?</Text>
+		</Row>
+		<!--Human accepts AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Thank you so much.</Text>
+		</Row>
+		<!--Human rejects AI requests, AI responds-->
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>We'll talk about that later.</Text>
+		</Row>
+		<!--ALLIANCE-->
+		<!--AI Requests an alliance from human-->
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Alone cannot bring about the victory of the revolution, and the establishment of alliances can help to promote the world revolution.</Text>
+		</Row>
+		<!--KUDOS & WARNINGS-->
+		<!--AI Kudos-->
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Comrade, you are a revolutionary who deserves to be emulated.</Text>
+		</Row>
+		<!--AI Warnings-->
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>A tyrant like you will surely be overthrown by the people.</Text>
+		</Row>
+		<!--AI warns player for border troops-->
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Your army can't stop the revolution, so please leave.</Text>
+		</Row>
+		<!--TRADE-->
+		<!--AI Accepts Deal-->
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>Such a deal is beneficial to the development of the revolution.</Text>
+		</Row>
+		<!--AI Rejects Deal-->
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The Soviet people were against such a deal.</Text>
+		</Row>
+		<!--DENOUNCE-->
+		<!--From Human-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>No matter how much the tyrants denigrate the revolution, the revolution will come.</Text>
+		</Row>
+		<!--From AI-->
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The Soviet people will definitely not be silent in the face of a tyrant like you. (Denounce you)</Text>
+		</Row>
+		<!--DECLARE WAR-->
+		<!--Human Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The Soviet people will resist to the end.</Text>
+		</Row>
+		<!--AI Declares War-->
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The overthrow of your rule is a historical necessity.</Text>
+		</Row>
+		<!--MAKE PEACE-->
+		<!--AI accepts from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>OK.</Text>
+		</Row>
+		<!--AI refuses human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The tide of history cannot be stopped, and the revolution will not stop because of the tyrant's plea for mercy.</Text>
+		</Row>
+		<!--AI requests from human-->
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>The proletariat can no longer afford such a war. Peace is needed now.</Text>
+		</Row>
+		<!--DEFEAT-->
+		<!--AI is Defeated-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>You have defeated one revolutionary, but there are thousands of revolutionaries, and your reign will come to an end.</Text>
+		</Row>
+		<!--Human is Defeated (will see this in hotseat)-->
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_YKKZ000_VLADIMIR_LENIN_ANY">
+			<Text>You have defeated one revolutionary, but there are thousands of revolutionaries, and your reign will come to an end.</Text>
+		</Row>
+		<!--Civic Pedia-->
+		<!--Civilizations-->
+		<Row Tag="LOC_CIVINFO_YKKZ000_SOVIET_UNION_LOCATION">
+			<Text>Europe</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_YKKZ000_SOVIET_UNION_POPULATION">
+			<Text>293 million</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_YKKZ000_SOVIET_UNION_SIZE">
+			<Text>22.4 million square kilometer</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_YKKZ000_SOVIET_UNION_CAPITAL">
+			<Text>Moscow</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YKKZ000_SOVIET_UNION_CHAPTER_HISTORY_PARA_1">
+			<Text>The Soviet Union, whose full name is the Union of Soviet Socialist Republics, was the first socialist state in the world that existed from 1922 to 1991.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YKKZ000_SOVIET_UNION_CHAPTER_HISTORY_PARA_2">
+			<Text>The Soviet Union had a significant influence on the world in the 20th century. On the political front, a number of socialist states were formed under the influence of the Soviet Union (although most of these countries were transformed into capitalist states during the "Eastern European upheaval", China, North Korea, Vietnam, Cuba and Laos still claimed to be socialist states). On the military front, the Soviet Union had a large army and nuclear weapons on par with those of the United States. In terms of science and technology, the Soviet Union engaged in a space race with the United States, becoming the first country to launch a satellite and the first country to realize manned spaceflight.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_YKKZ000_SOVIET_UNION_CHAPTER_HISTORY_PARA_3">
+			<Text>The Soviet Union participated in World War II and the Cold War, and belonged to the camp of the Central Powers in World War II and to the socialist camp in the Cold War. In World War II, the Soviet Union's victory in the Battle of Moscow declared the bankruptcy of Nazi Germany's "blitzkrieg", shattered the myth of Nazi Germany's invincibility, and was one of the turning points of World War II. In the Cold War, the Soviet Union and the United States faced off for a long time and finally collapsed.</Text>
+		</Row>
+		<!--Districts-->
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YKKZ000_NAUKOGRAD_CHAPTER_HISTORY_PARA_1">
+			<Text>Technopolis was a scientific research area of the Soviet Union, with a high concentration of scientific research and production.</Text>
+		</Row>
+		<!--Units-->
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YKKZ000_RED_ARMY_CHAPTER_HISTORY_PARA_1">
+			<Text>The Soviet Red Army, known as the Soviet Workers' and Peasants' Red Army, was created by Lenin, Trotsky, Stalin, Frunze and others, and was the collective name of the Soviet Union's land-based and aviation armed forces from 1917 to 1945. The Red Army, born out of the workers' and peasants' armed forces of the October Revolution, carried out a comprehensive military reform to defend Soviet power, and gradually became a regularized proletarian army. During the Second World War, the total number of casualties amounted to more than 24 million, more than 7 million officers and soldiers of the Red Army were awarded medals and medals, and more than 11,000 were awarded the title of Hero of the Soviet Union.</Text>
+		</Row>
+		<!--Leaders-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YKKZ000_VLADIMIR_LENIN_CHAPTER_HISTORY_PARA_1">
+			<Text>Vladimir Ilyich Lenin, formerly known as Vladimir Ilyich Ulyanov, was a native of Simbirsk, Russia, and a former chairman of the Council of People's Commissars of the USSR.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_YKKZ000_VLADIMIR_LENIN_CHAPTER_HISTORY_PARA_2">
+			<Text>The evaluation of Lenin varies greatly. Marxist-Leninists consider Lenin to be the teacher of the revolution, a great thinker, a revolutionary. Another part of the communists considered Lenin to be a betrayal of Marxism and a dictator. Of course, those who opposed communism considered Lenin to be a communist, and "communist" itself was already a completely demeaning term for them.</Text>
+		</Row>
+    </BaseGameText>
+</GameData>

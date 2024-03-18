@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- YKKZ000_UnitAbilities -->
+<!-- Author: 86183 -->
+<!-- DateCreated: 2/9/2024 7:48:55 PM -->
+<GameData>
+    <Types>
+        <Row Type="ABILITY_YKKZ000_RED_ARMY" Kind="KIND_ABILITY" />
+    </Types>
+    <TypeTags>
+        <Row Type="ABILITY_YKKZ000_RED_ARMY" Tag="CLASS_YKKZ000_RED_ARMY" />
+    </TypeTags>
+    <UnitAbilities>
+        <Row UnitAbilityType="ABILITY_YKKZ000_RED_ARMY" Name="LOC_ABILITY_YKKZ000_RED_ARMY_NAME"
+            Description="LOC_ABILITY_YKKZ000_RED_ARMY_DESCRIPTION" />
+    </UnitAbilities>
+    <UnitAbilityModifiers>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_RED_ARMY</UnitAbilityType>
+            <ModifierId>YKKZ000_RED_ARMY_DEFENSE</ModifierId>
+        </Row>
+    </UnitAbilityModifiers>
+    <Modifiers>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_DEFENSE</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+            <SubjectRequirementSetId>YKKZ000_RED_ARMY_DEFENSE_REQUIREMENTS</SubjectRequirementSetId>
+        </Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_DEFENSE</ModifierId>
+            <Name>Amount</Name>
+            <Value>20</Value>
+        </Row>
+    </ModifierArguments>
+    <RequirementSets>
+        <Row>
+            <RequirementSetId>YKKZ000_RED_ARMY_DEFENSE_REQUIREMENTS</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+    </RequirementSets>
+    <RequirementSetRequirements>
+        <Row>
+			<RequirementSetId>YKKZ000_RED_ARMY_DEFENSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId>
+		</Row>
+    </RequirementSetRequirements>
+</GameData>

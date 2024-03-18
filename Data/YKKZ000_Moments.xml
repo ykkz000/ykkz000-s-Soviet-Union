@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- YKKZ000_Moments -->
+<!-- Author: 86183 -->
+<!-- DateCreated: 2/8/2024 8:49:42 PM -->
+<GameData>
+    <MomentIllustrations>
+        <Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_YKKZ000_NAUKOGRAD" Texture="Moment_UniqueDistrict_YKKZ000_NAUKOGRAD.dds" />
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_YKKZ000_RED_ARMY" Texture="Moment_UniqueUnit_YKKZ000_RED_ARMY.dds" />
+    </MomentIllustrations>
+</GameData>

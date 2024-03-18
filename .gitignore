@@ -1,0 +1,5 @@
+# Ignore all non-code files
+.vscode/**
+Textures/**
+Platforms/**
+*.log

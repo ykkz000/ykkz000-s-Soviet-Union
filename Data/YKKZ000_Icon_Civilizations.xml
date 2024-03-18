@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- YKKZ000_Icon_Civilizations -->
+<!-- Author: ykkz000 -->
+<!-- DateCreated: 2/5/2024 8:32:32 PM -->
+<GameData>
+    <IconTextureAtlases>
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_256" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_200" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_128" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_80" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_64" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_50" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_48" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_45" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_44" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_36" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_32" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_30" />
+        <Row Name="ICON_ATLAS_YKKZ000_SOVIET_UNION" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_SOVIET_UNION_22" />
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_CIVILIZATION_YKKZ000_SOVIET_UNION" Atlas="ICON_ATLAS_YKKZ000_SOVIET_UNION" Index="0" />
+    </IconDefinitions>
+</GameData>

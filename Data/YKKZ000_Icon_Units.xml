@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- YKKZ000_Icon_Units -->
+<!-- Author: 86183 -->
+<!-- DateCreated: 2/9/2024 8:27:01 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_YKKZ000_RED_ARMY" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_RED_ARMY_256" />
+		<Row Name="ICON_ATLAS_YKKZ000_RED_ARMY" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_RED_ARMY_80" />
+		<Row Name="ICON_ATLAS_YKKZ000_RED_ARMY" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_RED_ARMY_64" />
+		<Row Name="ICON_ATLAS_YKKZ000_RED_ARMY" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_RED_ARMY_50" />
+		<Row Name="ICON_ATLAS_YKKZ000_RED_ARMY" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_RED_ARMY_38" />
+		<Row Name="ICON_ATLAS_YKKZ000_RED_ARMY" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_RED_ARMY_32" />
+		<Row Name="ICON_ATLAS_YKKZ000_RED_ARMY" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="YKKZ000_RED_ARMY_22" />
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_YKKZ000_RED_ARMY" Atlas="ICON_ATLAS_YKKZ000_RED_ARMY" Index="0" />
+	</IconDefinitions>
+</GameData>
