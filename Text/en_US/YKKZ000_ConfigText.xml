@@ -49,7 +49,7 @@
             <Text>Naukograd</Text>
         </Row>
         <Row Tag="LOC_DISTRICT_YKKZ000_NAUKOGRAD_DESCRIPTION">
-            <Text>A district unique to Soviet Union. Replaces the Campus district and cheaper to build.[NEWLINE][NEWLINE]Naukograd provides [ICON_Science] Science and a small amount of [ICON_Production] Production (Base +2 [ICON_Production]).</Text>
+            <Text>A district unique to Soviet Union. Replaces the Campus district and cheaper to build.[NEWLINE][NEWLINE]Naukograd provides [ICON_Science] Science and a small amount of [ICON_Production] Production (Base +2 [ICON_Production] Production).</Text>
         </Row>
         <!-- Units -->
         <Row Tag="LOC_UNIT_YKKZ000_RED_ARMY_NAME">
