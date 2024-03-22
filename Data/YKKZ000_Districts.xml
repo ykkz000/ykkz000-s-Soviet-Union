@@ -10,7 +10,7 @@
 		<Row CivUniqueDistrictType="DISTRICT_YKKZ000_NAUKOGRAD" ReplacesDistrictType="DISTRICT_CAMPUS" />
 	</DistrictReplaces>
 	<Districts>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" Name="LOC_DISTRICT_YKKZ000_NAUKOGRAD_NAME" Description="LOC_DISTRICT_YKKZ000_NAUKOGRAD_DESCRIPTION" PrereqTech="TECH_WRITING" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_TECHNOLOGY" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="20" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_YKKZ000_NAUKOGRAD"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" Name="LOC_DISTRICT_YKKZ000_NAUKOGRAD_NAME" Description="LOC_DISTRICT_YKKZ000_NAUKOGRAD_DESCRIPTION" PrereqTech="TECH_WRITING" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_TECHNOLOGY" Cost="54" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_YKKZ000_NAUKOGRAD"/>
 	</Districts>
 	<District_Adjacencies>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="Mountains_Science1"/>
@@ -18,36 +18,30 @@
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="Mountains_Science3"/>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="Mountains_Science4"/>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="Mountains_Science5"/>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_District_Science"/>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_INDUSTRIAL_ZONE_Science"/>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_Mountains_Production1"/>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_Mountains_Production2"/>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_Mountains_Production3"/>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_Mountains_Production4"/>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_Mountains_Production5"/>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_District_Production"/>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_INDUSTRIAL_ZONE_Production"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="Jungle_Science"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="District_Science"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="Government_Science"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="Geothermal_Science"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="Reef_Science"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="Pamukkale_Science"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="GBR_Science"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="Government_Production"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_Industrial_Zone_Production"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_Base_District_Production"/>
 	</District_Adjacencies>
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
 	<District_TradeRouteYields>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
-		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 	<District_CitizenYieldChanges>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 	<Adjacency_YieldChanges>
-		<Row ID="YKKZ000_District_Science" Description="LOC_DISTRICT_YKKZ000_DISTRICT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
-		<Row ID="YKKZ000_INDUSTRIAL_ZONE_Science" Description="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
-		<Row ID="YKKZ000_Mountains_Production1" Description="LOC_DISTRICT_YKKZ000_MOUNTAINS_PRODUCTION1" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_GRASS_MOUNTAIN"/>
-		<Row ID="YKKZ000_Mountains_Production2" Description="LOC_DISTRICT_YKKZ000_MOUNTAINS_PRODUCTION2" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_PLAINS_MOUNTAIN"/>
-		<Row ID="YKKZ000_Mountains_Production3" Description="LOC_DISTRICT_YKKZ000_MOUNTAINS_PRODUCTION3" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT_MOUNTAIN"/>
-		<Row ID="YKKZ000_Mountains_Production4" Description="LOC_DISTRICT_YKKZ000_MOUNTAINS_PRODUCTION4" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_TUNDRA_MOUNTAIN"/>
-		<Row ID="YKKZ000_Mountains_Production5" Description="LOC_DISTRICT_YKKZ000_MOUNTAINS_PRODUCTION5" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_SNOW_MOUNTAIN"/>
-		<Row ID="YKKZ000_District_Production" Description="LOC_DISTRICT_YKKZ000_DISTRICT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
-		<Row ID="YKKZ000_INDUSTRIAL_ZONE_Production" Description="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="YKKZ000_Industrial_Zone_Production" Description="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="YKKZ000_Base_District_Production" Description="LOC_DISTRICT_YKKZ000_BASE_DISTRICT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" Self="true"/>
 	</Adjacency_YieldChanges>
 </GameData>

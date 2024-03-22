@@ -30,7 +30,7 @@
             <Text>辩证唯物主义</Text>
         </Row>
         <Row Tag="LOC_TRAIT_CIVILIZATION_YKKZ000_DIALECTICAL_MATERIALISM_DESC" Language="zh_Hans_CN">
-            <Text>所有城市+10% [ICON_Production] 生产力但-20% [ICON_Faith] 信仰值。修建建筑（非奇观）完成后获得等同建筑的15% [ICON_Production] 生产力的 [Icon_Science] 科技值。纪念碑+1 [ICON_Science] 科技值。[NEWLINE][NEWLINE]无法建造圣地，无法招募大预言家。</Text>
+            <Text>所有城市-20% [ICON_Faith] 信仰值。修建建筑（非奇观）完成后获得等同建筑的10% [ICON_Production] 生产力的 [Icon_Science] 科技值。纪念碑+1 [ICON_Science] 科技值和+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]无法建造圣地，无法招募大预言家。</Text>
         </Row>
         <Row Tag="LOC_TRAIT_CIVILIZATION_YKKZ000_NAUKOGRAD_NAME" Language="zh_Hans_CN">
             <Text>科技城</Text>
@@ -46,51 +46,17 @@
         </Row>
         <!-- Districts -->
         <Row Tag="LOC_DISTRICT_YKKZ000_NAUKOGRAD_NAME" Language="zh_Hans_CN">
-            <Text>科技城</Text>
+            <Text>科学城</Text>
         </Row>
         <Row Tag="LOC_DISTRICT_YKKZ000_NAUKOGRAD_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>苏联特色区域。替代学院区域，建造费用更低。[NEWLINE][NEWLINE]科技城提供 [ICON_Science] 科技值和 [ICON_Production] 生产力。</Text>
+            <Text>苏联特色区域。替代学院区域。[NEWLINE][NEWLINE]科学城提供 [ICON_Science] 科技值和 少量 [ICON_Production] 生产力（基础+2 [ICON_Production] 生产力）。</Text>
         </Row>
-        <Row Tag="LOC_DISTRICT_YKKZ000_DISTRICT_SCIENCE" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Science] 科技值来自相邻 {1_Num : plural 1?区域; other?区域;}。</Text>
-		</Row>
-        <Row Tag="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_SCIENCE" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Science] 科技值来自相邻工业区。</Text>
-		</Row>
-        <Row Tag="LOC_DISTRICT_YKKZ000_MOUNTAINS_PRODUCTION1" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Production] 生产力来自相邻山脉 {1_Num : plural 1?单元格; other?单元格;}。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_YKKZ000_MOUNTAINS_PRODUCTION2" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Production] 生产力来自相邻山脉 {1_Num : plural 1?单元格; other?单元格;}。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_YKKZ000_MOUNTAINS_PRODUCTION3" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Production] 生产力来自相邻山脉 {1_Num : plural 1?单元格; other?单元格;}。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_YKKZ000_MOUNTAINS_PRODUCTION4" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Production] 生产力来自相邻山脉 {1_Num : plural 1?单元格; other?单元格;}。</Text>
-		</Row>
-		<Row Tag="LOC_DISTRICT_YKKZ000_MOUNTAINS_PRODUCTION5" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Production] 生产力来自相邻山脉 {1_Num : plural 1?tile; other?单元格;}。</Text>
-		</Row>
-        <Row Tag="LOC_DISTRICT_YKKZ000_DISTRICT_PRODUCTION" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Production] 生产力来自相邻 {1_Num : plural 1?区域; other?区域;}。</Text>
-		</Row>
-        <Row Tag="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_PRODUCTION" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Production] 生产力来自相邻工业区。</Text>
-		</Row>
         <!-- Units -->
         <Row Tag="LOC_UNIT_YKKZ000_RED_ARMY_NAME" Language="zh_Hans_CN">
             <Text>红军</Text>
         </Row>
         <Row Tag="LOC_UNIT_YKKZ000_RED_ARMY_DESCRIPTION" Language="zh_Hans_CN">
             <Text>取代步兵的苏联现代时代特色单位。建造和维护费更低。无需 [ICON_RESOURCE_OIL] 石油。“动员”市政解锁。 [NEWLINE][NEWLINE]比步兵弱但防御时 +20 [ICON_Strength] 战斗力。</Text>
-        </Row>
-        <!-- Unit Abilities-->
-        <Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_NAME" Language="zh_Hans_CN">
-            <Text>红军</Text>
-        </Row>
-        <Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>防御时+20 [ICON_Strength] 战斗力。</Text>
         </Row>
     </LocalizedText>
 </GameData>

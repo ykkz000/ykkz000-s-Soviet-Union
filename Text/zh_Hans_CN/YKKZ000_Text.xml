@@ -4,6 +4,20 @@
 <!-- DateCreated: 2/6/2024 11:10:17 PM -->
 <GameData>
     <LocalizedText>
+		<!-- Districts -->
+        <Row Tag="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Production] 生产力来自相邻工业区。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_YKKZ000_BASE_DISTRICT_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_Num}点 [ICON_Production] 生产力。</Text>
+		</Row>
+		<!-- Unit Abilities-->
+        <Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_NAME" Language="zh_Hans_CN">
+            <Text>红军</Text>
+        </Row>
+        <Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>防御时+20 [ICON_Strength] 战斗力。</Text>
+        </Row>
 		<!-- Cities -->
         <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_2" Language="zh_Hans_CN">
 			<Text>列宁格勒</Text>
