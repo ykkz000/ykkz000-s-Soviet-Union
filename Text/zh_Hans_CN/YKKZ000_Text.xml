@@ -5,11 +5,11 @@
 <GameData>
     <LocalizedText>
 		<!-- Districts -->
-        <Row Tag="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_PRODUCTION" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Production] 生产力来自相邻工业区。</Text>
+		<Row Tag="LOC_DISTRICT_YKKZ000_BASE_DISTRICT_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_Num}点 [ICON_Science] 科技值。</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_YKKZ000_BASE_DISTRICT_PRODUCTION" Language="zh_Hans_CN">
-			<Text>+{1_Num}点 [ICON_Production] 生产力。</Text>
+        <Row Tag="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_SCIENCE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Science] 科技值来自相邻工业区。</Text>
 		</Row>
 		<!-- Unit Abilities-->
         <Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_NAME" Language="zh_Hans_CN">

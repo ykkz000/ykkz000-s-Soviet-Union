@@ -49,7 +49,7 @@
             <Text>科学城</Text>
         </Row>
         <Row Tag="LOC_DISTRICT_YKKZ000_NAUKOGRAD_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>苏联特色区域。替代学院区域。[NEWLINE][NEWLINE]科学城提供 [ICON_Science] 科技值和 少量 [ICON_Production] 生产力（基础+2 [ICON_Production] 生产力）。</Text>
+            <Text>苏联特色区域。替代学院区域，且建造花费更低。科学城产出与相邻加成相同的[ICON_Production] 生产力。[NEWLINE][NEWLINE]+2 [ICON_Science] 科技值。每相邻一个工业区+2 [ICON_Science] 科技值。</Text>
         </Row>
         <!-- Units -->
         <Row Tag="LOC_UNIT_YKKZ000_RED_ARMY_NAME" Language="zh_Hans_CN">

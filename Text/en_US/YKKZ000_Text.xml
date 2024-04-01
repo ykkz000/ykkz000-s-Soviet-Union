@@ -5,11 +5,11 @@
 <GameData>
     <BaseGameText>
 		<!-- Districts -->
-        <Row Tag="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_PRODUCTION">
-			<Text>+{1_num} [ICON_Production] Production from the adjacent Industrial Zone.</Text>
+		<Row Tag="LOC_DISTRICT_YKKZ000_BASE_DISTRICT_SCIENCE">
+			<Text>+{1_num} [ICON_Science] Science.</Text>
 		</Row>
-		<Row Tag="LOC_DISTRICT_YKKZ000_BASE_DISTRICT_PRODUCTION">
-			<Text>+{1_num} [ICON_Production] Production.</Text>
+        <Row Tag="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_SCIENCE">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Industrial Zone.</Text>
 		</Row>
 		<!-- Unit Abilities-->
         <Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_NAME">
