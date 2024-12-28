@@ -30,7 +30,7 @@
             <Text>Dialectical Materialism</Text>
         </Row>
         <Row Tag="LOC_TRAIT_CIVILIZATION_YKKZ000_DIALECTICAL_MATERIALISM_DESC">
-            <Text>Every City -20% [ICON_Faith] Faith. After completing a building (except wonders), gain [Icon_Science] Science for 10% [ICON_Production] Production equal to the building. Monument +1 [ICON_Science] Science and +1 [ICON_Production] Production.[NEWLINE][NEWLINE]May not build Holy Site districts, gain Great Prophets, or found Religions.</Text>
+            <Text>Adding [ICON_RESOURCE_IRON] Iron to adjacent Mines with no resources after building Industrial Zones. Builders +ln(sum of all cities' [ICON_production] production)/ln(4) (max 5) build charges. After completing a building (except wonders), gain [Icon_Science] Science for 10% [ICON_Production] Production equal to the building. Monument +1 [ICON_Science] Science and +1 [ICON_Production] Production.[NEWLINE][NEWLINE]May not build Holy Site districts, gain Great Prophets, gain [ICON_Faith] Faith, or found Religions.</Text>
         </Row>
         <Row Tag="LOC_TRAIT_CIVILIZATION_YKKZ000_NAUKOGRAD_NAME">
             <Text>Naukograd</Text>
@@ -49,14 +49,14 @@
             <Text>Naukograd</Text>
         </Row>
         <Row Tag="LOC_DISTRICT_YKKZ000_NAUKOGRAD_DESCRIPTION">
-            <Text>A district unique to Soviet Union. Replaces the Campus district and cheaper to build.Naukograd provides [ICON_Production] Production equal to its adjacent bonus.[NEWLINE][NEWLINE]+2 [ICON_Science] Science. +2 [ICON_Science] Science from the adjacent Industrial Zone.</Text>
+            <Text>A district unique to Soviet Union. Replaces the Campus district and cheaper to build. Naukograd provide +2 [ICON_Production] Production for the adjacent Industrial Zone. Naukograd provides [ICON_Production] Production equal to its adjacent bonus.[NEWLINE][NEWLINE]+2 [ICON_Science] Science. +2 [ICON_Science] Science from the adjacent Industrial Zone.</Text>
         </Row>
         <!-- Units -->
         <Row Tag="LOC_UNIT_YKKZ000_RED_ARMY_NAME">
             <Text>Red Army</Text>
         </Row>
         <Row Tag="LOC_UNIT_YKKZ000_RED_ARMY_DESCRIPTION">
-            <Text>Soviet Union unique Mordern era unit that replaces the Infantry. Cheaper to construct and maintain. No [ICON_RESOURCE_OIL] Oil required. Unlock by Mobilization civic.[NEWLINE][NEWLINE]Weaker than the Infantry but +20 [ICON_Strength] Combat Strength when defending.</Text>
+            <Text>Soviet Union unique melee unit, cannot be purchase, base 15 [ICON_Strength] Combat Strength and will increase with technologies.[NEWLINE][NEWLINE]+5 [ICON_Strength] Combat Strength when fighting in the home territory. +1 [ICON_Strength] Combat Strength for every adjacent Red Army.</Text>
         </Row>
     </BaseGameText>
 </GameData>

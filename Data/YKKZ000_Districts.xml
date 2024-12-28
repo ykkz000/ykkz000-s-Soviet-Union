@@ -15,6 +15,7 @@
 	<District_Adjacencies>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_Base_District_Science"/>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" YieldChangeId="YKKZ000_Industrial_Zone_Science"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="YKKZ000_Naukograd_Production"/>
 	</District_Adjacencies>
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
@@ -29,6 +30,7 @@
 	<Adjacency_YieldChanges>
 		<Row ID="YKKZ000_Base_District_Science" Description="LOC_DISTRICT_YKKZ000_BASE_DISTRICT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" Self="true" />
 		<Row ID="YKKZ000_Industrial_Zone_Science" Description="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="YKKZ000_Naukograd_Production" Description="LOC_DISTRICT_YKKZ000_NAUKOGRAD_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_YKKZ000_NAUKOGRAD"/>
 	</Adjacency_YieldChanges>
 	<DistrictModifiers>
 		<Row DistrictType="DISTRICT_YKKZ000_NAUKOGRAD" ModifierId="YKKZ000_SOVIET_UNION_DISTRICT_NAUKOGRAD_PRODUCTION"/>

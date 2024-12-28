@@ -11,13 +11,29 @@
         <Row Tag="LOC_DISTRICT_YKKZ000_INDUSTRIAL_ZONE_SCIENCE" Language="zh_Hans_CN">
 			<Text>+{1_num} [ICON_Science] 科技值来自相邻工业区。</Text>
 		</Row>
+		<Row Tag="LOC_DISTRICT_YKKZ000_NAUKOGRAD_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Production] 生产力来自相邻科学城。</Text>
+		</Row>
 		<!-- Unit Abilities-->
-        <Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_NAME" Language="zh_Hans_CN">
-            <Text>红军</Text>
+        <Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_DEFENSE_OF_MOSCOW_NAME" Language="zh_Hans_CN">
+            <Text>保卫莫斯科</Text>
         </Row>
-        <Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>防御时+20 [ICON_Strength] 战斗力。</Text>
+        <Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_DEFENSE_OF_MOSCOW_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>在本国领土中+5 [ICON_Strength] 战斗力。</Text>
         </Row>
+		<Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_POLITICAL_COMMISSAR_NAME" Language="zh_Hans_CN">
+            <Text>政委</Text>
+        </Row>
+		<Row Tag="LOC_ABILITY_YKKZ000_RED_ARMY_POLITICAL_COMMISSAR_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>每与1个红军相邻 +1 [ICON_Strength] 战斗力。</Text>
+        </Row>
+		<!-- Modifier Strings -->
+		<Row Tag="LOC_COMBAT_PREVIEW_YKKZ000_IN_OWNER_TERRITORY_BONUS" Language="zh_Hans_CN">
+			<Text>+{1_Value} 在本国领土内</Text>
+		</Row>
+		<Row Tag="LOC_COMBAT_PREVIEW_YKKZ000_FOR_ADJACENT_RED_ARMY_BONUS" Language="zh_Hans_CN">
+			<Text>+{1_Value} 来自相邻红军</Text>
+		</Row>
 		<!-- Cities -->
         <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_2" Language="zh_Hans_CN">
 			<Text>列宁格勒</Text>
@@ -287,7 +303,7 @@
 		</Row>
 		<!--Districts-->
 		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_YKKZ000_NAUKOGRAD_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>科技城是苏联的科研区域，高浓度地集中了科研与生产。</Text>
+			<Text>科学城是苏联的科研区域，高浓度地集中了科研与生产。</Text>
 		</Row>
 		<!--Units-->
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YKKZ000_RED_ARMY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">

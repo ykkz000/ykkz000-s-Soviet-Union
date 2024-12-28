@@ -30,10 +30,10 @@
             <Text>辩证唯物主义</Text>
         </Row>
         <Row Tag="LOC_TRAIT_CIVILIZATION_YKKZ000_DIALECTICAL_MATERIALISM_DESC" Language="zh_Hans_CN">
-            <Text>所有城市-20% [ICON_Faith] 信仰值。修建建筑（非奇观）完成后获得等同建筑的10% [ICON_Production] 生产力的 [Icon_Science] 科技值。纪念碑+1 [ICON_Science] 科技值和+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]无法建造圣地，无法招募大预言家。</Text>
+            <Text>建成工业区后为相邻的没有资源的矿山添加 [ICON_RESOURCE_IRON] 铁。建造者 +ln(所有城市 [ICON_Production] 生产力总和)/ln(4) （上限为5）建造次数。修建建筑（非奇观）完成后获得等同建筑的10% [ICON_Production] 生产力的 [Icon_Science] 科技值。纪念碑+1 [ICON_Science] 科技值和+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]无法建造圣地，无法获取 [ICON_Faith] 信仰值，无法招募大预言家。</Text>
         </Row>
         <Row Tag="LOC_TRAIT_CIVILIZATION_YKKZ000_NAUKOGRAD_NAME" Language="zh_Hans_CN">
-            <Text>科技城</Text>
+            <Text>科学城</Text>
         </Row>
         <Row Tag="LOC_TRAIT_CIVILIZATION_YKKZ000_RED_ARMY_NAME" Language="zh_Hans_CN">
             <Text>红军</Text>
@@ -49,14 +49,14 @@
             <Text>科学城</Text>
         </Row>
         <Row Tag="LOC_DISTRICT_YKKZ000_NAUKOGRAD_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>苏联特色区域。替代学院区域，且建造花费更低。科学城产出与相邻加成相同的[ICON_Production] 生产力。[NEWLINE][NEWLINE]+2 [ICON_Science] 科技值。每相邻一个工业区+2 [ICON_Science] 科技值。</Text>
+            <Text>苏联特色区域。替代学院区域，且建造花费更低。科学城产出与相邻加成相同的 [ICON_Production] 生产力。科学城为相邻工业区提供+2 [ICON_Production] 生产力。[NEWLINE][NEWLINE]+2 [ICON_Science] 科技值。每相邻一个工业区+2 [ICON_Science] 科技值。</Text>
         </Row>
         <!-- Units -->
         <Row Tag="LOC_UNIT_YKKZ000_RED_ARMY_NAME" Language="zh_Hans_CN">
             <Text>红军</Text>
         </Row>
         <Row Tag="LOC_UNIT_YKKZ000_RED_ARMY_DESCRIPTION" Language="zh_Hans_CN">
-            <Text>取代步兵的苏联现代时代特色单位。建造和维护费更低。无需 [ICON_RESOURCE_OIL] 石油。“动员”市政解锁。 [NEWLINE][NEWLINE]比步兵弱但防御时 +20 [ICON_Strength] 战斗力。</Text>
+            <Text>苏联特色近战单位，无法购买，基础15 [ICON_Strength] 战斗力，[ICON_Strength] 战斗力随科技逐渐提高。[NEWLINE][NEWLINE] 在本国领土中+5 [ICON_Strength] 战斗力。每与1个红军相邻 +1 [ICON_Strength] 战斗力。</Text>
         </Row>
     </LocalizedText>
 </GameData>

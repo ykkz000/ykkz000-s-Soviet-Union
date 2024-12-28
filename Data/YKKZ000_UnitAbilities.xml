@@ -4,45 +4,372 @@
 <!-- DateCreated: 2/9/2024 7:48:55 PM -->
 <GameData>
     <Types>
-        <Row Type="ABILITY_YKKZ000_RED_ARMY" Kind="KIND_ABILITY" />
+        <Row Type="ABILITY_YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH" Kind="KIND_ABILITY" />
+        <Row Type="ABILITY_YKKZ000_RED_ARMY_DEFENSE_OF_MOSCOW" Kind="KIND_ABILITY" />
+        <Row Type="ABILITY_YKKZ000_RED_ARMY_POLITICAL_COMMISSAR" Kind="KIND_ABILITY" />
+        <Row Type="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_1" Kind="KIND_ABILITY" />
+        <Row Type="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_2" Kind="KIND_ABILITY" />
+        <Row Type="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_3" Kind="KIND_ABILITY" />
+        <Row Type="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_4" Kind="KIND_ABILITY" />
+        <Row Type="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_5" Kind="KIND_ABILITY" />
     </Types>
     <TypeTags>
-        <Row Type="ABILITY_YKKZ000_RED_ARMY" Tag="CLASS_YKKZ000_RED_ARMY" />
+        <Row Type="ABILITY_YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH" Tag="CLASS_YKKZ000_RED_ARMY" />
+        <Row Type="ABILITY_YKKZ000_RED_ARMY_DEFENSE_OF_MOSCOW" Tag="CLASS_YKKZ000_RED_ARMY" />
+        <Row Type="ABILITY_YKKZ000_RED_ARMY_POLITICAL_COMMISSAR" Tag="CLASS_YKKZ000_RED_ARMY" />
+        <Row Type="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_1" Tag="CLASS_BUILDER" />
+        <Row Type="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_2" Tag="CLASS_BUILDER" />
+        <Row Type="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_3" Tag="CLASS_BUILDER" />
+        <Row Type="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_4" Tag="CLASS_BUILDER" />
+        <Row Type="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_5" Tag="CLASS_BUILDER" />
     </TypeTags>
     <UnitAbilities>
-        <Row UnitAbilityType="ABILITY_YKKZ000_RED_ARMY" Name="LOC_ABILITY_YKKZ000_RED_ARMY_NAME"
-            Description="LOC_ABILITY_YKKZ000_RED_ARMY_DESCRIPTION" />
+        <Row UnitAbilityType="ABILITY_YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH" Name="" Description="" />
+        <Row UnitAbilityType="ABILITY_YKKZ000_RED_ARMY_DEFENSE_OF_MOSCOW" Name="LOC_ABILITY_YKKZ000_RED_ARMY_DEFENSE_OF_MOSCOW_NAME" Description="LOC_ABILITY_YKKZ000_RED_ARMY_DEFENSE_OF_MOSCOW_DESCRIPTION" />
+        <Row UnitAbilityType="ABILITY_YKKZ000_RED_ARMY_POLITICAL_COMMISSAR" Name="LOC_ABILITY_YKKZ000_RED_ARMY_POLITICAL_COMMISSAR_NAME" Description="LOC_ABILITY_YKKZ000_RED_ARMY_POLITICAL_COMMISSAR_DESCRIPTION" />
+        <Row UnitAbilityType="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_1" Name="" Description="" Inactive="true" />
+        <Row UnitAbilityType="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_2" Name="" Description="" Inactive="true" />
+        <Row UnitAbilityType="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_3" Name="" Description="" Inactive="true" />
+        <Row UnitAbilityType="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_4" Name="" Description="" Inactive="true" />
+        <Row UnitAbilityType="ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_5" Name="" Description="" Inactive="true" />
     </UnitAbilities>
     <UnitAbilityModifiers>
         <Row>
-            <UnitAbilityType>ABILITY_YKKZ000_RED_ARMY</UnitAbilityType>
-            <ModifierId>YKKZ000_RED_ARMY_DEFENSE</ModifierId>
+            <UnitAbilityType>ABILITY_YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH</UnitAbilityType>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_IRON_WORKING</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH</UnitAbilityType>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_APPRENTICESHIP</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH</UnitAbilityType>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_GUNPOWDER</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH</UnitAbilityType>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_MILITARY_SCIENCE</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH</UnitAbilityType>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_REPLACEABLE_PARTS</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH</UnitAbilityType>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_SATELLITES</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_RED_ARMY_DEFENSE_OF_MOSCOW</UnitAbilityType>
+            <ModifierId>YKKZ000_RED_ARMY_COMBAT_STRENGTH_IN_OWNER_TERRITORY</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_RED_ARMY_POLITICAL_COMMISSAR</UnitAbilityType>
+            <ModifierId>YKKZ000_RED_ARMY_COMBAT_STRENGTH_FOR_ADJACENT_RED_ARMY</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_1</UnitAbilityType>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_1</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_2</UnitAbilityType>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_2</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_3</UnitAbilityType>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_3</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_4</UnitAbilityType>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_4</ModifierId>
+        </Row>
+        <Row>
+            <UnitAbilityType>ABILITY_YKKZ000_DIALECTICAL_MATERIALISM_5</UnitAbilityType>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_5</ModifierId>
         </Row>
     </UnitAbilityModifiers>
     <Modifiers>
         <Row>
-            <ModifierId>YKKZ000_RED_ARMY_DEFENSE</ModifierId>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_IRON_WORKING</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+            <SubjectRequirementSetId>REQUIRESET_YKKZ000_IRON_WORKING</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_APPRENTICESHIP</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+            <SubjectRequirementSetId>REQUIRESET_YKKZ000_APPRENTICESHIP</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_GUNPOWDER</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+            <SubjectRequirementSetId>REQUIRESET_YKKZ000_GUNPOWDER</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_MILITARY_SCIENCE</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+            <SubjectRequirementSetId>REQUIRESET_YKKZ000_MILITARY_SCIENCE</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_REPLACEABLE_PARTS</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+            <SubjectRequirementSetId>REQUIRESET_YKKZ000_REPLACEABLE_PARTS</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_SATELLITES</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BASE_COMBAT_STRENGTH</ModifierType>
+            <SubjectRequirementSetId>REQUIRESET_YKKZ000_SATELLITES</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_COMBAT_STRENGTH_IN_OWNER_TERRITORY</ModifierId>
             <ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-            <SubjectRequirementSetId>YKKZ000_RED_ARMY_DEFENSE_REQUIREMENTS</SubjectRequirementSetId>
+            <SubjectRequirementSetId>REQUIRESET_YKKZ000_UNIT_IN_OWNER_TERRITORY</SubjectRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_COMBAT_STRENGTH_FOR_ADJACENT_RED_ARMY</ModifierId>
+            <ModifierType>GRANT_STRENGTH_PER_ADJACENT_UNIT_TYPE</ModifierType>
+            <OwnerRequirementSetId>REQUIRESET_YKKZ000_RED_ARMY_IS_ADJACENT</OwnerRequirementSetId>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_1</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BUILDER_CHARGES</ModifierType>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_2</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BUILDER_CHARGES</ModifierType>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_3</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BUILDER_CHARGES</ModifierType>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_4</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BUILDER_CHARGES</ModifierType>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_5</ModifierId>
+            <ModifierType>MODIFIER_UNIT_ADJUST_BUILDER_CHARGES</ModifierType>
         </Row>
     </Modifiers>
     <ModifierArguments>
         <Row>
-            <ModifierId>YKKZ000_RED_ARMY_DEFENSE</ModifierId>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_IRON_WORKING</ModifierId>
             <Name>Amount</Name>
-            <Value>20</Value>
+            <Value>15</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_APPRENTICESHIP</ModifierId>
+            <Name>Amount</Name>
+            <Value>10</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_GUNPOWDER</ModifierId>
+            <Name>Amount</Name>
+            <Value>10</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_MILITARY_SCIENCE</ModifierId>
+            <Name>Amount</Name>
+            <Value>10</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_REPLACEABLE_PARTS</ModifierId>
+            <Name>Amount</Name>
+            <Value>10</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_BASE_COMBAT_STRENGTH_SATELLITES</ModifierId>
+            <Name>Amount</Name>
+            <Value>10</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_COMBAT_STRENGTH_IN_OWNER_TERRITORY</ModifierId>
+            <Name>Amount</Name>
+            <Value>5</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_COMBAT_STRENGTH_FOR_ADJACENT_RED_ARMY</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_RED_ARMY_COMBAT_STRENGTH_FOR_ADJACENT_RED_ARMY</ModifierId>
+            <Name>UnitType</Name>
+            <Value>UNIT_YKKZ000_RED_ARMY</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_1</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_2</ModifierId>
+            <Name>Amount</Name>
+            <Value>2</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_3</ModifierId>
+            <Name>Amount</Name>
+            <Value>3</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_4</ModifierId>
+            <Name>Amount</Name>
+            <Value>4</Value>
+        </Row>
+        <Row>
+            <ModifierId>YKKZ000_DIALECTICAL_MATERIALISM_MORE_CHARGES_5</ModifierId>
+            <Name>Amount</Name>
+            <Value>5</Value>
         </Row>
     </ModifierArguments>
     <RequirementSets>
         <Row>
-            <RequirementSetId>YKKZ000_RED_ARMY_DEFENSE_REQUIREMENTS</RequirementSetId>
+            <RequirementSetId>REQUIRESET_YKKZ000_IRON_WORKING</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_APPRENTICESHIP</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_GUNPOWDER</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_MILITARY_SCIENCE</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_REPLACEABLE_PARTS</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_SATELLITES</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_UNIT_IN_OWNER_TERRITORY</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_RED_ARMY_IS_ADJACENT</RequirementSetId>
             <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
         </Row>
     </RequirementSets>
     <RequirementSetRequirements>
         <Row>
-			<RequirementSetId>YKKZ000_RED_ARMY_DEFENSE_REQUIREMENTS</RequirementSetId>
-			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId>
-		</Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_IRON_WORKING</RequirementSetId>
+            <RequirementId>REQUIRE_YKKZ000_IRON_WORKING</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_APPRENTICESHIP</RequirementSetId>
+            <RequirementId>REQUIRE_YKKZ000_APPRENTICESHIP</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_GUNPOWDER</RequirementSetId>
+            <RequirementId>REQUIRE_YKKZ000_GUNPOWDER</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_MILITARY_SCIENCE</RequirementSetId>
+            <RequirementId>REQUIRE_YKKZ000_MILITARY_SCIENCE</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_REPLACEABLE_PARTS</RequirementSetId>
+            <RequirementId>REQUIRE_YKKZ000_REPLACEABLE_PARTS</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_SATELLITES</RequirementSetId>
+            <RequirementId>REQUIRE_YKKZ000_SATELLITES</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_UNIT_IN_OWNER_TERRITORY</RequirementSetId>
+            <RequirementId>REQUIRE_YKKZ000_UNIT_IN_OWNER_TERRITORY</RequirementId>
+        </Row>
+        <Row>
+            <RequirementSetId>REQUIRESET_YKKZ000_RED_ARMY_IS_ADJACENT</RequirementSetId>
+            <RequirementId>REQUIRE_YKKZ000_RED_ARMY_IS_ADJACENT</RequirementId>
+        </Row>
     </RequirementSetRequirements>
+    <Requirements>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_IRON_WORKING</RequirementId>
+            <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+            <Inverse>0</Inverse>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_APPRENTICESHIP</RequirementId>
+            <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+            <Inverse>0</Inverse>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_GUNPOWDER</RequirementId>
+            <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+            <Inverse>0</Inverse>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_MILITARY_SCIENCE</RequirementId>
+            <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+            <Inverse>0</Inverse>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_REPLACEABLE_PARTS</RequirementId>
+            <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+            <Inverse>0</Inverse>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_SATELLITES</RequirementId>
+            <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+            <Inverse>0</Inverse>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_UNIT_IN_OWNER_TERRITORY</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_IN_OWNER_TERRITORY</RequirementType>
+            <Inverse>0</Inverse>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_RED_ARMY_IS_ADJACENT</RequirementId>
+            <RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+            <Inverse>0</Inverse>
+        </Row>
+    </Requirements>
+    <RequirementArguments>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_IRON_WORKING</RequirementId>
+            <Name>TechnologyType</Name>
+            <Value>TECH_IRON_WORKING</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_APPRENTICESHIP</RequirementId>
+            <Name>TechnologyType</Name>
+            <Value>TECH_APPRENTICESHIP</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_GUNPOWDER</RequirementId>
+            <Name>TechnologyType</Name>
+            <Value>TECH_GUNPOWDER</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_MILITARY_SCIENCE</RequirementId>
+            <Name>TechnologyType</Name>
+            <Value>TECH_MILITARY_SCIENCE</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_REPLACEABLE_PARTS</RequirementId>
+            <Name>TechnologyType</Name>
+            <Value>TECH_REPLACEABLE_PARTS</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_SATELLITES</RequirementId>
+            <Name>TechnologyType</Name>
+            <Value>TECH_SATELLITES</Value>
+        </Row>
+        <Row>
+            <RequirementId>REQUIRE_YKKZ000_RED_ARMY_IS_ADJACENT</RequirementId>
+            <Name>UnitType</Name>
+            <Value>UNIT_YKKZ000_RED_ARMY</Value>
+        </Row>
+    </RequirementArguments>
+    <ModifierStrings>
+		<Row ModifierId="YKKZ000_RED_ARMY_COMBAT_STRENGTH_IN_OWNER_TERRITORY" Context="Preview" Text="LOC_COMBAT_PREVIEW_YKKZ000_IN_OWNER_TERRITORY_BONUS" />
+		<Row ModifierId="YKKZ000_RED_ARMY_COMBAT_STRENGTH_FOR_ADJACENT_RED_ARMY" Context="Preview" Text="LOC_COMBAT_PREVIEW_YKKZ000_FOR_ADJACENT_RED_ARMY_BONUS" />
+	</ModifierStrings>
 </GameData>

@@ -12,9 +12,6 @@
 		<Row UnitType="UNIT_YKKZ000_RED_ARMY" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_YKKZ000_RED_ARMY" AiType="UNITTYPE_LAND_COMBAT"/>
     </UnitAiInfos>
-    <UnitReplaces>
-        <Row CivUniqueUnitType="UNIT_YKKZ000_RED_ARMY" ReplacesUnitType="UNIT_INFANTRY"/>
-    </UnitReplaces>
     <Tags>
         <Row Tag="CLASS_YKKZ000_RED_ARMY" Vocabulary="ABILITY_CLASS"/>
     </Tags>
@@ -23,9 +20,6 @@
         <Row Type="UNIT_YKKZ000_RED_ARMY" Tag="CLASS_YKKZ000_RED_ARMY"/>
     </TypeTags>
     <Units>
-        <Row UnitType="UNIT_YKKZ000_RED_ARMY" Cost="400" Maintenance="1" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="70" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_YKKZ000_RED_ARMY_NAME" Description="LOC_UNIT_YKKZ000_RED_ARMY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqCivic="CIVIC_MOBILIZATION" TraitType="TRAIT_CIVILIZATION_YKKZ000_RED_ARMY" />
+        <Row UnitType="UNIT_YKKZ000_RED_ARMY" Cost="30" Maintenance="0" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="15" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1625" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_YKKZ000_RED_ARMY_NAME" Description="LOC_UNIT_YKKZ000_RED_ARMY_DESCRIPTION" TraitType="TRAIT_CIVILIZATION_YKKZ000_RED_ARMY" />
     </Units>
-    <UnitUpgrades>
-        <Row Unit="UNIT_YKKZ000_RED_ARMY" UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
-    </UnitUpgrades>
 </GameData>
