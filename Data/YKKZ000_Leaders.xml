@@ -127,6 +127,9 @@
 	<LoadingInfo>
 		<Row LeaderType="LEADER_YKKZ000_VLADIMIR_LENIN" BackgroundImage="LEADER_GORGO_BACKGROUND" ForegroundImage="LEADER_YKKZ000_VLADIMIR_LENIN_NEUTRAL" PlayDawnOfManAudio="1" LeaderText="LOC_LOADING_INFO_LEADER_YKKZ000_VLADIMIR_LENIN"/>
 	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_YKKZ000_VLADIMIR_LENIN" BackgroundImage="CIVILIZATION_YKKZ000_SOVIET_UNION_DIPLOMACY"/>
+	</DiplomacyInfo>
     <CivilizationLeaders>
 		<Row CivilizationType="CIVILIZATION_YKKZ000_SOVIET_UNION" LeaderType="LEADER_YKKZ000_VLADIMIR_LENIN" CapitalName="LOC_CITY_NAME_MOSCOW" />
 	</CivilizationLeaders>
