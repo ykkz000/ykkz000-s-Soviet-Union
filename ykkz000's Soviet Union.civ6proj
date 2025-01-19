@@ -8,7 +8,7 @@
     <AssemblyName>ykkz000's Soviet Union</AssemblyName>
     <RootNamespace>ykkz000's Soviet Union</RootNamespace>
     <Authors>ykkz000</Authors>
-    <ModVersion>7</ModVersion>
+    <ModVersion>8</ModVersion>
     <Teaser>LOC_MOD_YKKZ000_S_SOVIET_UNION_TEASER</Teaser>
     <Description>LOC_MOD_YKKZ000_S_SOVIET_UNION_NAME_DESCRIPTION</Description>
     <AffectsSavedGames>true</AffectsSavedGames>

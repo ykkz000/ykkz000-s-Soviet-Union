@@ -32,7 +32,7 @@
 			<Text>+{1_Value} 在本国领土内</Text>
 		</Row>
 		<Row Tag="LOC_COMBAT_PREVIEW_YKKZ000_FOR_ADJACENT_RED_ARMY_BONUS" Language="zh_Hans_CN">
-			<Text>+{1_Value} 来自相邻红军</Text>
+			<Text>+{CalculatedAmount} 来自相邻红军</Text>
 		</Row>
 		<!-- Cities -->
         <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_2" Language="zh_Hans_CN">

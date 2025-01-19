@@ -32,7 +32,7 @@
 			<Text>+{1_Value} In Owner Territory</Text>
 		</Row>
 		<Row Tag="LOC_COMBAT_PREVIEW_YKKZ000_FOR_ADJACENT_RED_ARMY_BONUS">
-			<Text>+{1_Value} From adjacent Red Army</Text>
+			<Text>+{CalculatedAmount} From adjacent Red Army</Text>
 		</Row>
         <!-- Cities -->
         <Row Tag="LOC_CITY_NAME_YKKZ000_SOVIET_UNION_2">
