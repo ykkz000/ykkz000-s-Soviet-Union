@@ -8,7 +8,7 @@
     <AssemblyName>ykkz000's Soviet Union</AssemblyName>
     <RootNamespace>ykkz000's Soviet Union</RootNamespace>
     <Authors>ykkz000</Authors>
-    <ModVersion>8</ModVersion>
+    <ModVersion>9</ModVersion>
     <Teaser>LOC_MOD_YKKZ000_S_SOVIET_UNION_TEASER</Teaser>
     <Description>LOC_MOD_YKKZ000_S_SOVIET_UNION_NAME_DESCRIPTION</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -16,7 +16,7 @@
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="YKKZ000_SU_DATA"><Properties><LoadOrder>80</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>Data/YKKZ000_Districts.xml</File><File>Data/YKKZ000_UnitAbilities.xml</File><File>Data/YKKZ000_Units.xml</File><File>Data/YKKZ000_Civilizations.xml</File><File>Data/YKKZ000_Civilizations.sql</File><File>Data/YKKZ000_Leaders.xml</File><File>Data/YKKZ000_Moments.xml</File></UpdateDatabase><UpdateText id="YKKZ000_SU_TEXT"><Criteria>LeaderCriteria</Criteria><File>Text/en_US/YKKZ000_ConfigText.xml</File><File>Text/en_US/YKKZ000_Text.xml</File><File>Text/zh_Hans_CN/YKKZ000_ConfigText.xml</File><File>Text/zh_Hans_CN/YKKZ000_Text.xml</File></UpdateText><UpdateIcons id="YKKZ000_SU_ICON"><Criteria>LeaderCriteria</Criteria><File>Data/YKKZ000_Icon_Civilizations.xml</File><File>Data/YKKZ000_Icon_Leaders.xml</File><File>Data/YKKZ000_Icon_Districts.xml</File><File>Data/YKKZ000_Icon_Units.xml</File></UpdateIcons><UpdateArt id="YKKZ000_SU_ART"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="YKKZ000_SU_COLOR"><File>Data/YKKZ000_PlayerColors.xml</File></UpdateColors><UpdateAudio id="YKKZ000_SU_AUDIO"><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION.bnk</File><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION.xml</File><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION.txt</File><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION.ini</File></UpdateAudio><AddGameplayScripts id="YKKZ000_SU_SCRIPT"><Properties><LoadOrder>80</LoadOrder></Properties><File>Scripts/YKKZ000_Civilizations.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="YKKZ000_SU_DATA"><Properties><LoadOrder>80</LoadOrder></Properties><Criteria>LeaderCriteria</Criteria><File>Data/YKKZ000_Districts.xml</File><File>Data/YKKZ000_UnitAbilities.xml</File><File>Data/YKKZ000_Units.xml</File><File>Data/YKKZ000_Civilizations.xml</File><File>Data/YKKZ000_Civilizations.sql</File><File>Data/YKKZ000_Leaders.xml</File><File>Data/YKKZ000_Moments.xml</File></UpdateDatabase><UpdateText id="YKKZ000_SU_TEXT"><Criteria>LeaderCriteria</Criteria><File>Text/en_US/YKKZ000_ConfigText.xml</File><File>Text/en_US/YKKZ000_Text.xml</File><File>Text/zh_Hans_CN/YKKZ000_ConfigText.xml</File><File>Text/zh_Hans_CN/YKKZ000_Text.xml</File></UpdateText><UpdateIcons id="YKKZ000_SU_ICON"><Criteria>LeaderCriteria</Criteria><File>Data/YKKZ000_Icon_Civilizations.xml</File><File>Data/YKKZ000_Icon_Leaders.xml</File><File>Data/YKKZ000_Icon_Districts.xml</File><File>Data/YKKZ000_Icon_Units.xml</File></UpdateIcons><UpdateArt id="YKKZ000_SU_ART"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="YKKZ000_SU_COLOR"><File>Data/YKKZ000_PlayerColors.xml</File></UpdateColors><UpdateAudio id="YKKZ000_SU_AUDIO"><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION.ini</File><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION_Music_Bank.bnk</File><File>Platforms/Windows/Audio/YKKZ000_SOVIET_UNION_Music_Bank.txt</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File></UpdateAudio><AddGameplayScripts id="YKKZ000_SU_SCRIPT"><Properties><LoadOrder>80</LoadOrder></Properties><File>Scripts/YKKZ000_Civilizations.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="YKKZ000_SU_CONFIG_DATA"><File>Data/YKKZ000_Config.sql</File></UpdateDatabase><UpdateText id="YKKZ000_SU_CONFIG_TEXT"><File>Text/en_US/YKKZ000_ConfigText.xml</File><File>Text/zh_Hans_CN/YKKZ000_ConfigText.xml</File></UpdateText><UpdateIcons id="YKKZ000_SU_CONFIG_ICON"><File>Data/YKKZ000_Icon_Civilizations.xml</File><File>Data/YKKZ000_Icon_Leaders.xml</File><File>Data/YKKZ000_Icon_Districts.xml</File><File>Data/YKKZ000_Icon_Units.xml</File></UpdateIcons><UpdateArt id="YKKZ000_SU_CONFIG_ART"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="YKKZ000_SU_CONFIG_COLOR"><File>Data/YKKZ000_PlayerColors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:StandardPlayers::LEADER_YKKZ000_VLADIMIR_LENIN,Players:Expansion1_Players::LEADER_YKKZ000_VLADIMIR_LENIN,Players:Expansion2_Players::LEADER_YKKZ000_VLADIMIR_LENIN</LeaderPlayable></Criteria><Criteria id="LeaderCriteria_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_YKKZ000_VLADIMIR_LENIN</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LeaderCriteria_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_YKKZ000_VLADIMIR_LENIN</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <LocalizedTextData><![CDATA[<LocalizedText><Text id="LOC_MOD_YKKZ000_S_SOVIET_UNION_NAME"><en_US>ykkz000's [COLOR_FLOAT_GOLD]Soviet Union[ENDCOLOR]</en_US><zh_Hans_CN>ykkz000的[COLOR_FLOAT_GOLD]苏联[ENDCOLOR]</zh_Hans_CN></Text><Text id="LOC_MOD_YKKZ000_S_SOVIET_UNION_TEASER"><en_US>Add new civilization [COLOR_FLOAT_GOLD]Soviet Union[ENDCOLOR] and new leader [COLOR_RED]Vladimir Lenin[ENDCOLOR]</en_US><zh_Hans_CN>添加新文明[COLOR_FLOAT_GOLD]苏联[ENDCOLOR]和新领袖[COLOR_RED]弗拉基米尔·列宁[ENDCOLOR]</zh_Hans_CN></Text><Text id="LOC_MOD_YKKZ000_S_SOVIET_UNION_NAME_DESCRIPTION"><en_US>Add new civilization [COLOR_FLOAT_GOLD]Soviet Union[ENDCOLOR] and new leader [COLOR_RED]Vladimir Lenin[ENDCOLOR].[NEWLINE]Supported Languages: English, 简体中文</en_US><zh_Hans_CN>添加新文明[COLOR_FLOAT_GOLD]苏联[ENDCOLOR]和新领袖[COLOR_RED]弗拉基米尔·列宁[ENDCOLOR]。[NEWLINE]支持的语言：English，简体中文</zh_Hans_CN></Text></LocalizedText>]]></LocalizedTextData>
@@ -67,28 +67,37 @@
     <Content Include="Data\YKKZ000_Units.xml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\552830007.wem">
+    <Content Include="Platforms\Windows\Audio\111077084.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\636965561.wem">
+    <Content Include="Platforms\Windows\Audio\215497229.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\788167140.wem">
+    <Content Include="Platforms\Windows\Audio\289931151.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\911864952.wem">
+    <Content Include="Platforms\Windows\Audio\835347259.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\YKKZ000_SOVIET_UNION.bnk">
+    <Content Include="Platforms\Windows\Audio\858404713.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\948161784.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\960729092.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\SoundbanksInfo.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Platforms\Windows\Audio\YKKZ000_SOVIET_UNION.ini">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\YKKZ000_SOVIET_UNION.txt">
+    <Content Include="Platforms\Windows\Audio\YKKZ000_SOVIET_UNION_Music_Bank.bnk">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\YKKZ000_SOVIET_UNION.xml">
+    <Content Include="Platforms\Windows\Audio\YKKZ000_SOVIET_UNION_Music_Bank.txt">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Scripts\YKKZ000_Civilizations.lua">
